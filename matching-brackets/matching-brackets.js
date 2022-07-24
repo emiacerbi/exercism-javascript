@@ -1,5 +1,4 @@
 export const isPaired = (string) => {
-  // str = str.replace(/[^[\]{}()]/g, '') //remove rubbish
   let stack = []
   for (let bracket of string) {
     switch (bracket) {
